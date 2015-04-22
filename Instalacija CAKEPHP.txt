@@ -1,0 +1,16 @@
+#1 u php.ini skinuti ekstenziju:
+extension=php_intl.dll
+
+#2 kopirati 
+iz C:\xampp/PHP/msvcp110.dll u C:\xampp\apache\bin
+
+#3 restart apache
+
+#4 Instalirati "composer"
+https://github.com/composer/windows-setup/releases/
+
+#5 skinuti composer(composer.phar):
+C:\xampp\php>php -r "readfile('https://getcomposer.org/installer');" | php
+
+#6 Pokrenuti composer:
+C:\xampp\php>php composer.phar create-project --prefer-dist cakephp/app C:\xampp\htdocs\test\mojcake3

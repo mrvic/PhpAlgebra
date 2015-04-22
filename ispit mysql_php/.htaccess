@@ -1,0 +1,1 @@
+Redirect 301 ^index.php http://localhost/test/ispit%20mysql_php/redirect.php

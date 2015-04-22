@@ -1,0 +1,12 @@
+.mojdiv{
+	background-color: #0080FF;
+	/*plava*/
+}
+#mojokvir{
+	background-color: #FF0000;
+	position: absolute; 
+	top: 250px;
+	left:600px;
+
+	/*crvena*/
+}

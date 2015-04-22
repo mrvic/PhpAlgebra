@@ -1,0 +1,481 @@
+2015-04-21 04:03:29 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:06:16 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/basics.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:06:42 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/Config/config.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:08:18 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:11:54 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:18:22 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:19:46 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:24:42 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\test\cakephp-shopping-cart\app\Config\database.php, line 2]
+2015-04-21 04:24:42 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 04:31:55 Error: Fatal Error (1): Class 'Cake\Datasource\ConnectionManager' not found in [C:\xampp\htdocs\test\cakephp-shopping-cart\app\Config\database.php, line 4]
+2015-04-21 04:31:55 Error: [FatalErrorException] Class 'Cake\Datasource\ConnectionManager' not found
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Cake\\Dat...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Cake\\Dat...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Cake\\Dat...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 04:34:05 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\test\cakephp-shopping-cart\app\Config\database.php, line 2]
+2015-04-21 04:34:05 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-21 04:34:16 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:39:06 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:39:17 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:39:47 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:40:04 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/basics.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:40:20 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/bootstrap.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:40:29 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/Utility/CakeNumber.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:41:42 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+Exception Attributes: array (
+  'config' => 'default',
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#7 [internal function]: ProductsController->index()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-21 04:44:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1049] Unknown database \'cake\'',
+  'enabled' => true,
+)
+Request URL: /test/cakephp-shopping-cart/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3471): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(3493): Model->setSource('products')
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2897): Model->getDataSource()
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\Model.php(2869): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\app\Controller\ProductsController.php(7): Model->find('all')
+#8 [internal function]: ProductsController->index()
+#9 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProductsController), Array)
+#10 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ProductsController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-21 04:46:14 Error: [MissingActionException] Action AppController::index.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index.php',
+)
+Request URL: /test/cakephp-shopping-cart/app/index.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-21 04:46:49 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(BehaviorCollectionTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(CakeTestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:47:58 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(BehaviorCollectionTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(CakeTestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:48:08 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(DbAclTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(CakeTestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:48:29 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(FormHelperTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(CakeTestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:48:40 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(ModelDeleteTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:49:37 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(AclNodeTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:50:02 Error: [MissingDatasourceConfigException] The datasource configuration "test" was not found in database.php
+Exception Attributes: array (
+  'config' => 'test',
+)
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Model\ConnectionManager.php(91): ConnectionManager::_getConnectionObject('test')
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(92): ConnectionManager::getDataSource('test')
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\Fixture\CakeFixtureManager.php(71): CakeFixtureManager->_initDb()
+#3 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestRunner.php(55): CakeFixtureManager->fixturize(Object(ShellTest))
+#4 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteCommand.php(95): CakeTestRunner->doRun(Object(PHPUnit_Framework_TestSuite), Array)
+#5 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(243): CakeTestSuiteCommand->run(Array)
+#6 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(96): CakeTestSuiteDispatcher->_runTestCase()
+#7 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\TestSuite\CakeTestSuiteDispatcher.php(113): CakeTestSuiteDispatcher->dispatch()
+#8 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\test.php(98): CakeTestSuiteDispatcher::run()
+#9 {main}
+2015-04-21 04:50:12 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /test/cakephp-shopping-cart/app/webroot/
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-21 04:51:34 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/View/View.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:52:07 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/Config/config.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:52:16 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/Configure/PhpReader.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 04:52:28 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/Configure/ConfigReaderInterface.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-21 05:13:09 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /test/cakephp-shopping-cart/app/View/Layouts/default.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-23 01:32:57 Error: [MissingActionException] Action AppController::View() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'View',
+)
+Request URL: /test/cakephp-shopping-cart/app/View/Layouts/default.ctp
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\test\cakephp-shopping-cart\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-23 03:05:07 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /test/cakephp-shopping-cart/lib/Cake/basics.php
+Stack Trace:
+#0 C:\xampp\htdocs\test\cakephp-shopping-cart\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -1,0 +1,5 @@
+<?php
+
+$u= new ucenik();
+
+?>
