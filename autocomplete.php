@@ -32,7 +32,7 @@ $stmt->bind_result($pbr,$mjesto);
   </script>
 </head>
 <body>
-Autocomplete <br/>
+Autocomplete jQuery<br/>
 <form action="autocomplete_page2.php" method="get">
 <div class="ui-widget">
   <label for="tags">Tags: </label>
